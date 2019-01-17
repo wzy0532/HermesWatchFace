@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SpriteKitWatchFace.xcodeproj">
+      location = "self:/Users/Ziyue/Documents/Developer/HermesWatchFace/HermesWatchFace.xcodeproj">
    </FileRef>
 </Workspace>

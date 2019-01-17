@@ -13,10 +13,10 @@
 		B0D30ADD216D5B2700444765 /* MobileAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30ADC216D5B2700444765 /* MobileAssets.xcassets */; };
 		B0D30AE0216D5B2700444765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D30ADE216D5B2700444765 /* LaunchScreen.storyboard */; };
 		B0D30AE3216D5B2700444765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30AE2216D5B2700444765 /* main.m */; };
-		B0D30AE7216D5B2700444765 /* SpriteKitWatchFace WatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B0D30AE6216D5B2700444765 /* SpriteKitWatchFace WatchKit.app */; };
+		B0D30AE7216D5B2700444765 /* Hermès watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B0D30AE6216D5B2700444765 /* Hermès watchOS.app */; };
 		B0D30AED216D5B2700444765 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D30AEB216D5B2700444765 /* Interface.storyboard */; };
 		B0D30AEF216D5B2700444765 /* NanoIconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30AEE216D5B2700444765 /* NanoIconAssets.xcassets */; };
-		B0D30AF6216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0D30AF5216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B0D30AF6216D5B2700444765 /* Core.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0D30AF5216D5B2700444765 /* Core.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B0D30AFC216D5B2700444765 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30AFB216D5B2700444765 /* InterfaceController.m */; };
 		B0D30AFF216D5B2700444765 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30AFE216D5B2700444765 /* ExtensionDelegate.m */; };
 		B0D30B01216D5B2800444765 /* NanoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B00216D5B2800444765 /* NanoAssets.xcassets */; };
@@ -63,7 +63,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B0D30AF6216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex in Embed App Extensions */,
+				B0D30AF6216D5B2700444765 /* Core.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,7 +74,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				B0D30AE7216D5B2700444765 /* SpriteKitWatchFace WatchKit.app in Embed Watch Content */,
+				B0D30AE7216D5B2700444765 /* Hermès watchOS.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B0D30AD0216D5B2500444765 /* SpriteKitWatchFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitWatchFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D30AD0216D5B2500444765 /* Hermès iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermès iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D30AD3216D5B2500444765 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0D30AD4216D5B2500444765 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B0D30AD6216D5B2500444765 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -92,11 +92,11 @@
 		B0D30ADF216D5B2700444765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0D30AE1216D5B2700444765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D30AE2216D5B2700444765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0D30AE6216D5B2700444765 /* SpriteKitWatchFace WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKitWatchFace WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D30AE6216D5B2700444765 /* Hermès watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermès watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D30AEC216D5B2700444765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		B0D30AEE216D5B2700444765 /* NanoIconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NanoIconAssets.xcassets; sourceTree = "<group>"; };
 		B0D30AF0216D5B2700444765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0D30AF5216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpriteKitWatchFace WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D30AF5216D5B2700444765 /* Core.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Core.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D30AFA216D5B2700444765 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
 		B0D30AFB216D5B2700444765 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
 		B0D30AFD216D5B2700444765 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		B0D4F2B52172164B00F497E0 /* FaceWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceWindow.h; sourceTree = "<group>"; };
 		B0D4F2B62172164B00F497E0 /* FaceWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceWindow.m; sourceTree = "<group>"; };
 		B0EB72E3216E3C350098CF27 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B0EB72E8216E69AA0098CF27 /* DesktopShim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesktopShim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EB72E8216E69AA0098CF27 /* Hermès macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermès macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EB72EA216E69AA0098CF27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0EB72EB216E69AA0098CF27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B0EB72F4216E69AA0098CF27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		B0EB72FA216E69AB0098CF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0EB72FC216E69AB0098CF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0EB72FD216E69AB0098CF27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0EB72FF216E69AB0098CF27 /* DesktopShim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesktopShim.entitlements; sourceTree = "<group>"; };
+		B0EB72FF216E69AB0098CF27 /* HermesWatchFace macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HermesWatchFace macOS.entitlements"; sourceTree = "<group>"; };
 		B0EB7305216E6C380098CF27 /* FaceScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceScene.h; sourceTree = "<group>"; };
 		B0EB7306216E6C380098CF27 /* FaceScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceScene.m; sourceTree = "<group>"; };
 		B0F66DDA2173727500058F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -151,10 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				B0EB72E3216E3C350098CF27 /* README.md */,
-				B0D30AD2216D5B2500444765 /* SpriteKitWatchFace */,
-				B0D30AEA216D5B2700444765 /* SpriteKitWatchFace WatchKit App */,
-				B0D30AF9216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension */,
-				B0EB72E9216E69AA0098CF27 /* DesktopShim */,
+				B0D30AF9216D5B2700444765 /* HermesWatchFace Core */,
+				B0D30AD2216D5B2500444765 /* HermesWatchFace iOS */,
+				B0EB72E9216E69AA0098CF27 /* HermesWatchFace macOS */,
+				B0D30AEA216D5B2700444765 /* HermesWatchFace watchOS */,
 				B0D30AD1216D5B2500444765 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -162,15 +162,15 @@
 		B0D30AD1216D5B2500444765 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0D30AD0216D5B2500444765 /* SpriteKitWatchFace.app */,
-				B0D30AE6216D5B2700444765 /* SpriteKitWatchFace WatchKit.app */,
-				B0D30AF5216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex */,
-				B0EB72E8216E69AA0098CF27 /* DesktopShim.app */,
+				B0D30AD0216D5B2500444765 /* Hermès iOS.app */,
+				B0D30AE6216D5B2700444765 /* Hermès watchOS.app */,
+				B0D30AF5216D5B2700444765 /* Core.appex */,
+				B0EB72E8216E69AA0098CF27 /* Hermès macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0D30AD2216D5B2500444765 /* SpriteKitWatchFace */ = {
+		B0D30AD2216D5B2500444765 /* HermesWatchFace iOS */ = {
 			isa = PBXGroup;
 			children = (
 				B0D30AD3216D5B2500444765 /* AppDelegate.h */,
@@ -184,20 +184,20 @@
 				B0F66DDB2173727500058F22 /* InfoPlist.strings */,
 				B0D30AE2216D5B2700444765 /* main.m */,
 			);
-			path = SpriteKitWatchFace;
+			path = "HermesWatchFace iOS";
 			sourceTree = "<group>";
 		};
-		B0D30AEA216D5B2700444765 /* SpriteKitWatchFace WatchKit App */ = {
+		B0D30AEA216D5B2700444765 /* HermesWatchFace watchOS */ = {
 			isa = PBXGroup;
 			children = (
 				B0D30AEB216D5B2700444765 /* Interface.storyboard */,
 				B0D30AEE216D5B2700444765 /* NanoIconAssets.xcassets */,
 				B0D30AF0216D5B2700444765 /* Info.plist */,
 			);
-			path = "SpriteKitWatchFace WatchKit App";
+			path = "HermesWatchFace watchOS";
 			sourceTree = "<group>";
 		};
-		B0D30AF9216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension */ = {
+		B0D30AF9216D5B2700444765 /* HermesWatchFace Core */ = {
 			isa = PBXGroup;
 			children = (
 				B0EB7305216E6C380098CF27 /* FaceScene.h */,
@@ -210,10 +210,10 @@
 				B0D30B00216D5B2800444765 /* NanoAssets.xcassets */,
 				B0D30B02216D5B2800444765 /* Info.plist */,
 			);
-			path = "SpriteKitWatchFace WatchKit Extension";
+			path = "HermesWatchFace Core";
 			sourceTree = "<group>";
 		};
-		B0EB72E9216E69AA0098CF27 /* DesktopShim */ = {
+		B0EB72E9216E69AA0098CF27 /* HermesWatchFace macOS */ = {
 			isa = PBXGroup;
 			children = (
 				B0EB72EA216E69AA0098CF27 /* AppDelegate.h */,
@@ -226,17 +226,17 @@
 				B0EB72F9216E69AB0098CF27 /* Main.storyboard */,
 				B0EB72FC216E69AB0098CF27 /* Info.plist */,
 				B0EB72FD216E69AB0098CF27 /* main.m */,
-				B0EB72FF216E69AB0098CF27 /* DesktopShim.entitlements */,
+				B0EB72FF216E69AB0098CF27 /* HermesWatchFace macOS.entitlements */,
 			);
-			path = DesktopShim;
+			path = "HermesWatchFace macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0D30ACF216D5B2500444765 /* SpriteKitWatchFace */ = {
+		B0D30ACF216D5B2500444765 /* Hermès iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D30B0D216D5B2800444765 /* Build configuration list for PBXNativeTarget "SpriteKitWatchFace" */;
+			buildConfigurationList = B0D30B0D216D5B2800444765 /* Build configuration list for PBXNativeTarget "Hermès iOS" */;
 			buildPhases = (
 				B0D30ACC216D5B2500444765 /* Sources */,
 				B0D30ACD216D5B2500444765 /* Frameworks */,
@@ -249,14 +249,14 @@
 			dependencies = (
 				B0D30AE9216D5B2700444765 /* PBXTargetDependency */,
 			);
-			name = SpriteKitWatchFace;
+			name = "Hermès iOS";
 			productName = SpriteKitWatchFace;
-			productReference = B0D30AD0216D5B2500444765 /* SpriteKitWatchFace.app */;
+			productReference = B0D30AD0216D5B2500444765 /* Hermès iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B0D30AE5216D5B2700444765 /* SpriteKitWatchFace WatchKit */ = {
+		B0D30AE5216D5B2700444765 /* Hermès watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D30B09216D5B2800444765 /* Build configuration list for PBXNativeTarget "SpriteKitWatchFace WatchKit" */;
+			buildConfigurationList = B0D30B09216D5B2800444765 /* Build configuration list for PBXNativeTarget "Hermès watchOS" */;
 			buildPhases = (
 				B0D30AE4216D5B2700444765 /* Resources */,
 				B0D30B08216D5B2800444765 /* Embed App Extensions */,
@@ -267,14 +267,14 @@
 			dependencies = (
 				B0D30AF8216D5B2700444765 /* PBXTargetDependency */,
 			);
-			name = "SpriteKitWatchFace WatchKit";
+			name = "Hermès watchOS";
 			productName = "SpriteKitWatchFace WatchKit App";
-			productReference = B0D30AE6216D5B2700444765 /* SpriteKitWatchFace WatchKit.app */;
+			productReference = B0D30AE6216D5B2700444765 /* Hermès watchOS.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		B0D30AF4216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension */ = {
+		B0D30AF4216D5B2700444765 /* Core */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D30B05216D5B2800444765 /* Build configuration list for PBXNativeTarget "SpriteKitWatchFace WatchKit Extension" */;
+			buildConfigurationList = B0D30B05216D5B2800444765 /* Build configuration list for PBXNativeTarget "Core" */;
 			buildPhases = (
 				B0D30AF1216D5B2700444765 /* Sources */,
 				B0D30AF2216D5B2700444765 /* Frameworks */,
@@ -285,14 +285,14 @@
 			);
 			dependencies = (
 			);
-			name = "SpriteKitWatchFace WatchKit Extension";
+			name = Core;
 			productName = "SpriteKitWatchFace WatchKit Extension";
-			productReference = B0D30AF5216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex */;
+			productReference = B0D30AF5216D5B2700444765 /* Core.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		B0EB72E7216E69AA0098CF27 /* DesktopShim */ = {
+		B0EB72E7216E69AA0098CF27 /* Hermès macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0EB7300216E69AB0098CF27 /* Build configuration list for PBXNativeTarget "DesktopShim" */;
+			buildConfigurationList = B0EB7300216E69AB0098CF27 /* Build configuration list for PBXNativeTarget "Hermès macOS" */;
 			buildPhases = (
 				B0EB72E4216E69AA0098CF27 /* Sources */,
 				B0EB72E5216E69AA0098CF27 /* Frameworks */,
@@ -302,9 +302,9 @@
 			);
 			dependencies = (
 			);
-			name = DesktopShim;
+			name = "Hermès macOS";
 			productName = DesktopShim;
-			productReference = B0EB72E8216E69AA0098CF27 /* DesktopShim.app */;
+			productReference = B0EB72E8216E69AA0098CF27 /* Hermès macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -330,7 +330,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0D30ACB216D5B2500444765 /* Build configuration list for PBXProject "SpriteKitWatchFace" */;
+			buildConfigurationList = B0D30ACB216D5B2500444765 /* Build configuration list for PBXProject "HermesWatchFace" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -343,10 +343,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0D30ACF216D5B2500444765 /* SpriteKitWatchFace */,
-				B0D30AE5216D5B2700444765 /* SpriteKitWatchFace WatchKit */,
-				B0D30AF4216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension */,
-				B0EB72E7216E69AA0098CF27 /* DesktopShim */,
+				B0D30ACF216D5B2500444765 /* Hermès iOS */,
+				B0EB72E7216E69AA0098CF27 /* Hermès macOS */,
+				B0D30AE5216D5B2700444765 /* Hermès watchOS */,
+				B0D30AF4216D5B2700444765 /* Core */,
 			);
 		};
 /* End PBXProject section */
@@ -494,12 +494,12 @@
 /* Begin PBXTargetDependency section */
 		B0D30AE9216D5B2700444765 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0D30AE5216D5B2700444765 /* SpriteKitWatchFace WatchKit */;
+			target = B0D30AE5216D5B2700444765 /* Hermès watchOS */;
 			targetProxy = B0D30AE8216D5B2700444765 /* PBXContainerItemProxy */;
 		};
 		B0D30AF8216D5B2700444765 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0D30AF4216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension */;
+			target = B0D30AF4216D5B2700444765 /* Core */;
 			targetProxy = B0D30AF7216D5B2700444765 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -668,7 +668,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z3WWATY6A;
-				INFOPLIST_FILE = "SpriteKitWatchFace WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "HermesWatchFace Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -689,7 +689,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z3WWATY6A;
-				INFOPLIST_FILE = "SpriteKitWatchFace WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "HermesWatchFace Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -711,7 +711,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z3WWATY6A;
 				IBSC_MODULE = SpriteKitWatchFace_WatchKit_Extension;
-				INFOPLIST_FILE = "SpriteKitWatchFace WatchKit App/Info.plist";
+				INFOPLIST_FILE = "HermesWatchFace watchOS/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wzy0532.SpriteKitWatchFace.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -728,7 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z3WWATY6A;
 				IBSC_MODULE = SpriteKitWatchFace_WatchKit_Extension;
-				INFOPLIST_FILE = "SpriteKitWatchFace WatchKit App/Info.plist";
+				INFOPLIST_FILE = "HermesWatchFace watchOS/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wzy0532.SpriteKitWatchFace.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -744,7 +744,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z3WWATY6A;
-				INFOPLIST_FILE = SpriteKitWatchFace/Info.plist;
+				INFOPLIST_FILE = "HermesWatchFace iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -761,7 +761,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Z3WWATY6A;
-				INFOPLIST_FILE = SpriteKitWatchFace/Info.plist;
+				INFOPLIST_FILE = "HermesWatchFace iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -776,12 +776,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DesktopShim/DesktopShim.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "HermesWatchFace macOS/HermesWatchFace macOS.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2Z3WWATY6A;
-				INFOPLIST_FILE = DesktopShim/Info.plist;
+				INFOPLIST_FILE = "HermesWatchFace macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -797,12 +797,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DesktopShim/DesktopShim.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "HermesWatchFace macOS/HermesWatchFace macOS.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2Z3WWATY6A;
-				INFOPLIST_FILE = DesktopShim/Info.plist;
+				INFOPLIST_FILE = "HermesWatchFace macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -817,7 +817,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0D30ACB216D5B2500444765 /* Build configuration list for PBXProject "SpriteKitWatchFace" */ = {
+		B0D30ACB216D5B2500444765 /* Build configuration list for PBXProject "HermesWatchFace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D30B03216D5B2800444765 /* Debug */,
@@ -826,7 +826,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0D30B05216D5B2800444765 /* Build configuration list for PBXNativeTarget "SpriteKitWatchFace WatchKit Extension" */ = {
+		B0D30B05216D5B2800444765 /* Build configuration list for PBXNativeTarget "Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D30B06216D5B2800444765 /* Debug */,
@@ -835,7 +835,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0D30B09216D5B2800444765 /* Build configuration list for PBXNativeTarget "SpriteKitWatchFace WatchKit" */ = {
+		B0D30B09216D5B2800444765 /* Build configuration list for PBXNativeTarget "Hermès watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D30B0A216D5B2800444765 /* Debug */,
@@ -844,7 +844,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0D30B0D216D5B2800444765 /* Build configuration list for PBXNativeTarget "SpriteKitWatchFace" */ = {
+		B0D30B0D216D5B2800444765 /* Build configuration list for PBXNativeTarget "Hermès iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D30B0E216D5B2800444765 /* Debug */,
@@ -853,7 +853,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0EB7300216E69AB0098CF27 /* Build configuration list for PBXNativeTarget "DesktopShim" */ = {
+		B0EB7300216E69AB0098CF27 /* Build configuration list for PBXNativeTarget "Hermès macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0EB7301216E69AB0098CF27 /* Debug */,

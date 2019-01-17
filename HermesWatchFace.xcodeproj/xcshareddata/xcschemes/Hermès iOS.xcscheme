@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0EB72E7216E69AA0098CF27"
-               BuildableName = "DesktopShim.app"
-               BlueprintName = "DesktopShim"
-               ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+               BlueprintIdentifier = "B0D30ACF216D5B2500444765"
+               BuildableName = "Herme&#x300;s iOS.app"
+               BlueprintName = "Herm&#xe8;s iOS"
+               ReferencedContainer = "container:HermesWatchFace.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0EB72E7216E69AA0098CF27"
-            BuildableName = "DesktopShim.app"
-            BlueprintName = "DesktopShim"
-            ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+            BlueprintIdentifier = "B0D30ACF216D5B2500444765"
+            BuildableName = "Herme&#x300;s iOS.app"
+            BlueprintName = "Herm&#xe8;s iOS"
+            ReferencedContainer = "container:HermesWatchFace.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0EB72E7216E69AA0098CF27"
-            BuildableName = "DesktopShim.app"
-            BlueprintName = "DesktopShim"
-            ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+            BlueprintIdentifier = "B0D30ACF216D5B2500444765"
+            BuildableName = "Herme&#x300;s iOS.app"
+            BlueprintName = "Herm&#xe8;s iOS"
+            ReferencedContainer = "container:HermesWatchFace.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B0EB72E7216E69AA0098CF27"
-            BuildableName = "DesktopShim.app"
-            BlueprintName = "DesktopShim"
-            ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+            BlueprintIdentifier = "B0D30ACF216D5B2500444765"
+            BuildableName = "Herme&#x300;s iOS.app"
+            BlueprintName = "Herm&#xe8;s iOS"
+            ReferencedContainer = "container:HermesWatchFace.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

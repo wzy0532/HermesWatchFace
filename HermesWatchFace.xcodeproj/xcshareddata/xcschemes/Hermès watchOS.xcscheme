@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B0D30AE5216D5B2700444765"
-               BuildableName = "SpriteKitWatchFace WatchKit.app"
-               BlueprintName = "SpriteKitWatchFace WatchKit"
-               ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+               BuildableName = "Herme&#x300;s watchOS.app"
+               BlueprintName = "Herm&#xe8;s watchOS"
+               ReferencedContainer = "container:HermesWatchFace.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B0D30ACF216D5B2500444765"
-               BuildableName = "SpriteKitWatchFace.app"
-               BlueprintName = "SpriteKitWatchFace"
-               ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+               BuildableName = "Herme&#x300;s iOS.app"
+               BlueprintName = "Herm&#xe8;s iOS"
+               ReferencedContainer = "container:HermesWatchFace.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0D30AE5216D5B2700444765"
-            BuildableName = "SpriteKitWatchFace WatchKit.app"
-            BlueprintName = "SpriteKitWatchFace WatchKit"
-            ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+            BuildableName = "Herme&#x300;s watchOS.app"
+            BlueprintName = "Herm&#xe8;s watchOS"
+            ReferencedContainer = "container:HermesWatchFace.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -72,18 +72,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0D30AE5216D5B2700444765"
-            BuildableName = "SpriteKitWatchFace WatchKit.app"
-            BlueprintName = "SpriteKitWatchFace WatchKit"
-            ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+            BuildableName = "Herme&#x300;s watchOS.app"
+            BlueprintName = "Herm&#xe8;s watchOS"
+            ReferencedContainer = "container:HermesWatchFace.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0D30AE5216D5B2700444765"
-            BuildableName = "SpriteKitWatchFace WatchKit.app"
-            BlueprintName = "SpriteKitWatchFace WatchKit"
-            ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+            BuildableName = "Herme&#x300;s watchOS.app"
+            BlueprintName = "Herm&#xe8;s watchOS"
+            ReferencedContainer = "container:HermesWatchFace.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -102,18 +102,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0D30AE5216D5B2700444765"
-            BuildableName = "SpriteKitWatchFace WatchKit.app"
-            BlueprintName = "SpriteKitWatchFace WatchKit"
-            ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+            BuildableName = "Herme&#x300;s watchOS.app"
+            BlueprintName = "Herm&#xe8;s watchOS"
+            ReferencedContainer = "container:HermesWatchFace.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0D30AE5216D5B2700444765"
-            BuildableName = "SpriteKitWatchFace WatchKit.app"
-            BlueprintName = "SpriteKitWatchFace WatchKit"
-            ReferencedContainer = "container:SpriteKitWatchFace.xcodeproj">
+            BuildableName = "Herme&#x300;s watchOS.app"
+            BlueprintName = "Herm&#xe8;s watchOS"
+            ReferencedContainer = "container:HermesWatchFace.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
