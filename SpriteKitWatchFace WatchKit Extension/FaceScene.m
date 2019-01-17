@@ -82,25 +82,25 @@ CGFloat workingRadiusForFaceOfSizeWithAngle(CGSize faceSize, CGFloat angle)
 	self = [super initWithCoder:coder];
 	if (self) {
 		
-		self.faceSize = (CGSize){184, 224};
-
-		self.theme = [[NSUserDefaults standardUserDefaults] integerForKey:@"Theme"];
-		self.useBackgroundImageOverlay = NO;
-		self.faceStyle = FaceStyleRound;
-		self.numeralStyle = NumeralStyleAll;
-		self.tickmarkStyle = TickmarkStyleAll;
-		self.majorTickmarkShape = TickmarkShapeRectangular;
-		self.minorTickmarkShape = TickmarkShapeRectangular;
-		
-		self.majorTickHeight = 6;
-		self.majorTickWidth = 2;
-
-		self.colorRegionStyle = ColorRegionStyleDynamicDuo;
-		
-		self.dateStyle = DateStyleDayDate;
-		self.dateQuadrant = DateQuadrantRight;
-
-		self.monogram = @""; // e.g. 
+        self.faceSize = (CGSize){184, 224};
+        
+        self.theme = [[NSUserDefaults standardUserDefaults] integerForKey:@"Theme"];
+        self.useBackgroundImageOverlay = YES;
+        self.faceStyle = FaceStyleMAX;
+        self.numeralStyle = NumeralStyleNone;
+        self.tickmarkStyle = TickmarkStyleNone;
+        self.majorTickmarkShape = TickmarkShapeRectangular;
+        self.minorTickmarkShape = TickmarkShapeRectangular;
+        
+        self.majorTickHeight = 6;
+        self.majorTickWidth = 2;
+        
+        self.colorRegionStyle = ColorRegionStyleDynamicDuo;
+        
+        self.dateStyle = DateStyleNone;
+        self.dateQuadrant = DateQuadrantTop;
+        
+        self.monogram = @""; // e.g. 
 		
 		[self refreshTheme];
 		
